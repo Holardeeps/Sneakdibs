@@ -142,7 +142,7 @@ section {
   background: radial-gradient(var(--clr-inner, rgb(134, 183, 183)), var(--clr-outer, rgb(227, 226, 232)));
   padding: 3em;
   border-radius: 1em;
-  margin-bottom: 5em;
+  margin-bottom: 7em;
   text-align: center;
 }
 .product__title {
@@ -154,11 +154,13 @@ section {
   text-shadow: 0 0 0.2em rgba(0, 0, 0, 0.2);
 }
 .product__image {
-  margin: -6em 0 0 0;
+  margin: -4em 0 0 0;
 }
 @media (min-width: 45em) {
   .product {
     text-align: left;
+    margin-bottom: 6rem;
+    padding-bottom: 6rem;
   }
   .product__title {
     margin: 0;
@@ -173,6 +175,8 @@ section {
   .product.shoe-white .product__image {
     float: left;
     shape-outside: url(../images/shoe-2.png);
+    margin: 0 0 0 -5em;
+    shape-margin: 2em;
   }
 }
 

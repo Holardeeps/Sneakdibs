@@ -147,7 +147,7 @@ section{
     var(--clr-outer, rgb(227, 226, 232)));
     padding: 3em;
     border-radius: 1em;
-    margin-bottom: 5em;
+    margin-bottom: 7em;
     text-align: center;
 
     &__title{
@@ -160,10 +160,12 @@ section{
     }
 
     &__image{
-        margin: -6em 0 0 0;
+        margin: -4em 0 0 0;
     }
     @media (min-width: 45em){
         text-align: left;
+        margin-bottom: 6rem;
+        padding-bottom: 6rem;
 
         &__title{
             margin: 0;
@@ -181,6 +183,8 @@ section{
             .product__image{
                 float: left;
                 shape-outside: url(../images/shoe-2.png);
+                margin: 0 0 0 -5em;
+                shape-margin: 2em;
             }
         }
     }
